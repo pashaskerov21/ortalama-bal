@@ -1,4 +1,4 @@
-<p>Bu tələbələrin ÜMOG(Ümumi Orta Müvəffəqiyyət görtəricisini) hesablaması üçün hazırladığım kalkulyatordur. Aşağıdakı link vasitəsi ilə keçid edib ortalama balınızı hesablaya bilərsiniz :</p>
+<p>Bu tələbələrin ÜOMG(Ümumi Orta Müvəffəqiyyət görtəricisini) hesablaması üçün hazırladığım kalkulyatordur. Aşağıdakı link vasitəsi ilə keçid edib ortalama balınızı hesablaya bilərsiniz :</p>
 <a href="https://pashaskerov21.github.io/ortalama-bal/index.html?#">Ortalama Bal Hesablama</a>
 <p>Tələbə ilk öncə fənnin sayını daxil etməlidir, minimum 3, maksimum 8 fənn daxil edilə bilər. Daha sonra fənnin kredit sayını və fənndən topladığı ümumi balı daxil etməlidir. Daxil edilən dəyərlər sıfırdan kiçik ola bilməz və ümumi toplanılan bal 100-dən böyük ola bilməz.</p>
 <p>Aldığı qiymətlərə əsasən tələbənin hansı təqaüdü qazandığı ortalama balın aşağısında ekranda göstərilir</p>
