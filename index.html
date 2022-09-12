@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortalama Bal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <main>
+        <h1>Ortalama balınızı hesablayın</h1>
+        <form action="#" class="select-number">
+            <label for="change-number-input">Fənn sayını : </label>
+            <input type="number" min="3" max="8" value="3" id="change-number-input" class="change-number">
+            <button type="submit" class="change-number-btn" onclick="addInputSection()">Seçin</button> 
+        </form>
+        <div class="value-panel">
+            <div class="value-panel-header">
+                <p>Fənnin Krediti</p>
+                <p>Ümumi Bal</p>
+            </div>
+           
+               <form action="#">
+                <div id="mark-panel">
+                    <section id="subject-1">
+                        <input type="number" min="1" id="fk-1" class="value-input" required>
+                        <input type="number" min="0" max="100" id="fb-1" class="value-input" required>
+                    </section>
+                    <section id="subject-2">
+                        <input type="number" min="1" id="fk-2" class="value-input" required>
+                        <input type="number" min="0" max="100" id="fb-2" class="value-input" required>
+                    </section>
+                    <section id="subject-3">
+                        <input type="number" min="1" id="fk-3" class="value-input" required>
+                        <input type="number" min="0" max="100" id="fb-3" class="value-input" required>
+                    </section>
+                    <section id="subject-4">
+                        <input type="number" min="1" id="fk-4" class="value-input" required>
+                        <input type="number" min="0" max="100" id="fb-4" class="value-input" required>
+                    </section>
+                    <section id="subject-5">
+                        <input type="number" min="1" id="fk-5" class="value-input" required>
+                        <input type="number" min="0" max="100" id="fb-5" class="value-input" required>
+                    </section>
+                    <section id="subject-6">
+                        <input type="number" min="1" id="fk-6" class="value-input" required>
+                        <input type="number" min="0" max="100" id="fb-6" class="value-input" required>
+                    </section>
+                    <section id="subject-7">
+                        <input type="number" min="1" id="fk-7" class="value-input" required>
+                        <input type="number" min="0" max="100" id="fb-7" class="value-input" required>
+                    </section>
+                    <section id="subject-8">
+                        <input type="number" min="1" id="fk-8" class="value-input" required>
+                        <input type="number" min="0" max="100" id="fb-8" class="value-input" required>
+                    </section>
+                </div>
+                <p id="result"></p>
+                <button class="submit-btn" onclick="calculateFunction()">Hesabla</button>
+               </form>
+            </div>
+            <!-- <button onclick="showStatus()">Göstər</button>
+            <p id="show-status"></p>  -->
+            
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
